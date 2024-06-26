@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "registration-form",
+  "version": "1.0.0",
+  "description": "simple registration form project made for bharat intern ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vishal kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^8.4.1"
+  }
+}
